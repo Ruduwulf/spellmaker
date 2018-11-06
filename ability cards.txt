@@ -1,0 +1,95 @@
+﻿<!doctype html>
+<html lang="en-US">
+
+<head>
+<title>Ruduwulf's Spell Card Creator</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+<style>
+html {background-color: #f0e68c;}
+h1 {font-family: georgia;}
+#scform {display: flex;flex-flow: row wrap;}
+</head>
+
+<body>
+
+<!--Insert code for assembling image here-->
+
+<form name="scform" method="get">
+<div>
+
+<div>
+<h1>Spell Name</h1>
+<input type="text" name="spellname" id="spellname" placeholder="Magic Missile" value>
+</div>
+
+<div>
+<h1>School</h1>
+<input type="text" name="school" id="school" value>
+</div>
+
+<div>
+<h1>Level</h1>
+<input type="text" name="level" id="level" value>
+</div>
+
+<div>
+<h1>Casting Time</h1>
+<input type="text" name="castingtime" id="castingtime" value>
+</div>
+
+<div>
+<h1>Range</h1>
+<input type="text" name="range" id="range" value>
+</div>
+
+<div>
+<h1>Area</h1>
+<input type="text" name="area" id="area" value>
+</div>
+
+<div>
+<h1>Target</h1>
+<input type="text" name="target" id="target" value maxlength="50">
+</div>
+
+<div>
+<h1>Effect</h1>
+<input type="text" name="effect" id="effect" value>
+</div>
+
+<div>
+<h1>Duration</h1>
+<input type="text" name="duration" id="duration" value>
+</div>
+
+<div>
+<h1>Saving Throw</h1>
+<input type="text" name="savingthrow" id="savingthrow" value>
+</div>
+
+<div>
+<h1>Spell Resistance</h1>
+<input type="text" name="spellresistance" id="spellresistance" value>
+</div>
+
+<div>
+<h1>Flavor Text</h1>
+<textarea type="text" name="flavortext" id="flavortext" value maxlength="50" rows="4">
+</textarea>
+</div>
+
+<div>
+<h1>Description</h1>
+<textarea type="text" name="description" id="description" value maxlength="100" rows="12">
+</textarea>
+</div>
+
+<div>
+<input type="submit" value="Create">
+<input type="reset" value="Clear">
+</div>
+
+</div>
+</form>
+</body>
+</html>
